@@ -36,12 +36,14 @@ var romans = [
   'Louis VIII', 'George II', 'George VI', 'Xoloty I', 'James XXI', 'Riki XL', 'Riki XXX', 'Riko XLVII', 'Riko XLV', 'Dio XL',
   'Louis IX', 'Elizabeth XXI', 'Dio XLIX', 'David VI', 'Schiwatz XXIV', 'Xoloty XXVIII', 'Dio XLI', 'Riko XXXV', 'David XII', 'Riki XLIX',
   'Elizabeth V', 'Elizabeth XXIV', 'David XLI', 'Aaron XXXIX', 'Schiwatz XVIII', 'Aaron XXXI', 'Dio IV', 'James I', 'James VII', 'Riki III',
-  'Elizabeth IV', 'Aaron I', 'Robert X', 'Louis III', 'Robert L', 'Riki XXXIII', 'Robert XXV', 'Aaron VII', 
-  'David II'
+  'Elizabeth IV', 'Aaron I', 'Robert X', 'Louis III', 'Robert L', 'Riki XXXIII', 'Robert XXV', 'Aaron VII', 'Schiwatz XLIII', 'Schiwatz X',
+  'David II', 'Xoloty III', 'Tesla VII', 'Einstein V', 'Dio XX', 'Robert L', 'Schiwatz XXV', 'Dio III', 'David XLII', 'Riko XLVI',
 ]
 
+console.log("Before sorted (as array)", romans)
 const romanToIntObj = new RomanToInt(romans)
 var afterSorted = romanToIntObj.getSortedList(romanToIntObj.romanName)
-// console.log("Before sorted", romanToIntObj.romanName)
-console.log("After sorted ", afterSorted)
-console.log("to string", afterSorted.length)
+
+console.log("After sorted (as array)", afterSorted)
+console.log("After sorted (as string)", afterSorted.toString())
+console.log("Total length of data ", romans.length)
