@@ -11,7 +11,10 @@ class RomanToInt {
     var data = array.sort()
 
     data
-      .map((n) => ({name: n, num: this.romanToInt(n.split(" ").pop())}))
+      .map((n) => ({
+        name: n,
+        num: this.romanToInt(n.split(" ").pop())
+      }))
       .sort((a, b) => (a.num - b.num))
       .map(({name, num}) => name)
 
