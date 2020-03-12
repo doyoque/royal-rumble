@@ -12,7 +12,7 @@ To run this application make sure the computer have this additional requirement:
 
 # To Get This
 
-Here the instruction for run the source code.
+Here the instruction to run the source code.
 ```bash
 git clone https://github.com/doyoque/royal-rumble.git
 cd royal-rumble/
