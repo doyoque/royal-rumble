@@ -85,3 +85,49 @@ After the roman numbers get sorted the data is mapped again with _.map()_
 ```javaScript
 .map(({name, num}) => name)
 ```
+
+When the code is execute the output will be like this:
+```bash
+Before sorted (as array): [
+  'Louis VIII',     'George II',    'George VI',
+  'Xoloty I',       'James XXI',    'Riki XL',
+  'Riki XXX',       'Riko XLVII',   'Riko XLV',
+  'Dio XL',         'Louis IX',     'Elizabeth XXI',
+  'Dio XLIX',       'David VI',     'Schiwatz XXIV',
+  'Xoloty XXVIII',  'Dio XLI',      'Riko XXXV',
+  'David XII',      'Riki XLIX',    'Elizabeth V',
+  'Elizabeth XXIV', 'David XLI',    'Aaron XXXIX',
+  'Schiwatz XVIII', 'Aaron XXXI',   'Dio IV',
+  'James I',        'James VII',    'Riki III',
+  'Elizabeth IV',   'Aaron I',      'Robert X',
+  'Louis III',      'Robert L',     'Riki XXXIII',
+  'Robert XXV',     'Aaron VII',    'Schiwatz XLIII',
+  'Schiwatz X',     'David II',     'Xoloty III',
+  'Tesla VII',      'Einstein V',   'Dio XX',
+  'Robert L',       'Schiwatz XXV', 'Dio III',
+  'David XLII',     'Riko XLVI'
+]
+<------------------------------------------------------------------------>
+After sorted (as array): [
+  'Aaron I',        'Aaron VII',      'Aaron XXXI',
+  'Aaron XXXIX',    'David II',       'David VI',
+  'David XII',      'David XLI',      'David XLII',
+  'Dio III',        'Dio IV',         'Dio XL',
+  'Dio XLI',        'Dio XLIX',       'Dio XX',
+  'Einstein V',     'Elizabeth IV',   'Elizabeth V',
+  'Elizabeth XXI',  'Elizabeth XXIV', 'George II',
+  'George VI',      'James I',        'James VII',
+  'James XXI',      'Louis III',      'Louis IX',
+  'Louis VIII',     'Riki III',       'Riki XL',
+  'Riki XLIX',      'Riki XXX',       'Riki XXXIII',
+  'Riko XLV',       'Riko XLVI',      'Riko XLVII',
+  'Riko XXXV',      'Robert L',       'Robert L',
+  'Robert X',       'Robert XXV',     'Schiwatz X',
+  'Schiwatz XLIII', 'Schiwatz XVIII', 'Schiwatz XXIV',
+  'Schiwatz XXV',   'Tesla VII',      'Xoloty I',
+  'Xoloty III',     'Xoloty XXVIII'
+]
+<------------------------------------------------------------------------>
+After sorted (as string): Aaron I,Aaron VII,Aaron XXXI,Aaron XXXIX,David II,David VI,David XII,David XLI,David XLII,Dio III,Dio IV,Dio XL,Dio XLI,Dio XLIX,Dio XX,Einstein V,Elizabeth IV,Elizabeth V,Elizabeth XXI,Elizabeth XXIV,George II,George VI,James I,James VII,James XXI,Louis III,Louis IX,Louis VIII,Riki III,Riki XL,Riki XLIX,Riki XXX,Riki XXXIII,Riko XLV,Riko XLVI,Riko XLVII,Riko XXXV,Robert L,Robert L,Robert X,Robert XXV,Schiwatz X,Schiwatz XLIII,Schiwatz XVIII,Schiwatz XXIV,Schiwatz XXV,Tesla VII,Xoloty I,Xoloty III,Xoloty XXVIII  <------------------------------------------------------------------------>
+Total length of data:  50
+```
