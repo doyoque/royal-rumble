@@ -51,5 +51,4 @@ var afterSorted = romanToIntObj.getSortedList(romanToIntObj.romanName)
 console.log("After sorted (as array):", afterSorted)
 console.log("<------------------------------------------------------------------------>");
 console.log("After sorted (as string):", afterSorted.toString())
-console.log("<------------------------------------------------------------------------>");
 console.log("Total length of data: ", romans.length)
