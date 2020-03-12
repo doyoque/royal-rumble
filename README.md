@@ -128,6 +128,6 @@ After sorted (as array): [
   'Xoloty III',     'Xoloty XXVIII'
 ]
 <------------------------------------------------------------------------>
-After sorted (as string): Aaron I,Aaron VII,Aaron XXXI,Aaron XXXIX,David II,David VI,David XII,David XLI,David XLII,Dio III,Dio IV,Dio XL,Dio XLI,Dio XLIX,Dio XX,Einstein V,Elizabeth IV,Elizabeth V,Elizabeth XXI,Elizabeth XXIV,George II,George VI,James I,James VII,James XXI,Louis III,Louis IX,Louis VIII,Riki III,Riki XL,Riki XLIX,Riki XXX,Riki XXXIII,Riko XLV,Riko XLVI,Riko XLVII,Riko XXXV,Robert L,Robert L,Robert X,Robert XXV,Schiwatz X,Schiwatz XLIII,Schiwatz XVIII,Schiwatz XXIV,Schiwatz XXV,Tesla VII,Xoloty I,Xoloty III,Xoloty XXVIII  <------------------------------------------------------------------------>
+After sorted (as string): Aaron I,Aaron VII,Aaron XXXI,Aaron XXXIX,David II,David VI,David XII,David XLI,David XLII,Dio III,Dio IV,Dio XL,Dio XLI,Dio XLIX,Dio XX,Einstein V,Elizabeth IV,Elizabeth V,Elizabeth XXI,Elizabeth XXIV,George II,George VI,James I,James VII,James XXI,Louis III,Louis IX,Louis VIII,Riki III,Riki XL,Riki XLIX,Riki XXX,Riki XXXIII,Riko XLV,Riko XLVI,Riko XLVII,Riko XXXV,Robert L,Robert L,Robert X,Robert XXV,Schiwatz X,Schiwatz XLIII,Schiwatz XVIII,Schiwatz XXIV,Schiwatz XXV,Tesla VII,Xoloty I,Xoloty III,Xoloty XXVIII
 Total length of data:  50
 ```
