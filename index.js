@@ -43,10 +43,13 @@ var romans = [
   'David II', 'Xoloty III', 'Tesla VII', 'Einstein V', 'Dio XX', 'Robert L', 'Schiwatz XXV', 'Dio III', 'David XLII', 'Riko XLVI',
 ]
 
-console.log("Before sorted (as array)", romans)
+console.log("Before sorted (as array):", romans)
+console.log("<------------------------------------------------------------------------>");
 const romanToIntObj = new RomanToInt(romans)
 var afterSorted = romanToIntObj.getSortedList(romanToIntObj.romanName)
 
-console.log("After sorted (as array)", afterSorted)
-console.log("After sorted (as string)", afterSorted.toString())
-console.log("Total length of data ", romans.length)
+console.log("After sorted (as array):", afterSorted)
+console.log("<------------------------------------------------------------------------>");
+console.log("After sorted (as string):", afterSorted.toString())
+console.log("<------------------------------------------------------------------------>");
+console.log("Total length of data: ", romans.length)

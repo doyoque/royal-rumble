@@ -3,6 +3,13 @@
 This is just a simple code to sort given name. The given name is a list of royal name strings consisting of a given name followed
 by an ordinal number as roman numerals.
 
+# Requirement
+
+To run this application make sure the computer have this additional requirement:
+
+* **Nodejs v12.13.0**
+* **A Git command**
+
 # To Get This
 
 Here the instruction for run the source code.
@@ -12,7 +19,7 @@ cd royal-rumble/
 npm run check
 ```
 
-# The goal
+# The Goal
 
 The list of royal name must be sort as alphabetically by the name, then by ordinal increasing within any given name.
 Example.
@@ -29,7 +36,7 @@ Louis VIII
 Louis IX
 ```
 
-# Behind the scene
+# The Code
 
 Here's the line code of the logic:
 ```javaScript
@@ -74,7 +81,7 @@ And then the roman numbers is sorted inside the _.sort()_ function with ```a``` 
 .sort((a, b) => (a.num - b.num))
 ```
 
-And then the data is mapped again with _.map()_
+After the roman numbers get sorted the data is mapped again with _.map()_
 ```javaScript
 .map(({name, num}) => name)
 ```
